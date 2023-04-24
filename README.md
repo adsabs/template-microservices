@@ -1,28 +1,28 @@
 ## ADS Microservice Template Instructions
 
-Template for an ADS microservice project. 
+Template for an ADS microservice project.
 
 ### Usage
-1. From the main template repository page, click the "Use This Template" button located above the file list. From the dropdown menu, select "Create a new repository". 
+1. From the main template repository page, click the "Use This Template" button located above the file list. From the dropdown menu, select "Create a new repository".
 2. Name the new repository and add a description. Change the new repository owner and/or permissions as necessary.
 
     *Naming convention*: The repository name should end with `_service`, e.g. `reference_service`, `metrics_service`.
-    
+
 3. Update this README file: remove this instructions section and update the contents:
-    
+
     * Replace instances of `<repo_name>` and `<package_name>`, including within the CI status badge
     * Update stub text (e.g. microservice name, description, maintainers, etc.)
-    
+
 4. Rename the directory `package_name`.
 
     *Naming convention*: The package name should be a shortened form of the repository name.
 
 5. Edit the `pyproject.toml` file:
 
-    * Replace `<repo_name>` and `<package_name>` 
+    * Replace `<repo_name>` and `<package_name>`
     * In the `[project]` section, replace fields as indicated (i.e. name, description, author info)
     * Dependencies go here, instead of in `requirements.txt` and `dev-requirements.txt` files
-    
+
 6. Microservice code goes into the `package_name` directory. There's a `tests` sub-directory in there for your unittests.
 
 
